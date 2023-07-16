@@ -1,6 +1,6 @@
 # News Article Recommender System
 
-This repository contains the code for a News Article Recommender System, which fetches news articles based on a user-provided topic and recommends similar articles based on a chosen text. The recommender system uses either TF-IDF or BERT embeddings to generate vector representations of the articles, and cosine similarity to find the most similar articles.
+This repository contains the code for a News Article Recommender System, which fetches news articles based on a user-provided topic and recommends similar articles based on a chosen text. The recommender system uses either TF-IDF or BERT embeddings to generate vector representations of the articles, and cosine similarity to find the most similar articles, prioritizing for the most recent articles of the topic so that the user can be kept up to date on the topic of their choice. 
 
 The main files in this repository are:
 

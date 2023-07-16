@@ -17,6 +17,8 @@ def get_news_data(api_key, topic):
     # Parameters for the API request
     parameters = {
         'q': topic,
+        'pageSize': 100,
+        'sortBy': 'publishedAt',
         'language': 'en',
         'apiKey': api_key
     }
